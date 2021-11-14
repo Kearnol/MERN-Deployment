@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/static/css/main.42a35f89.chunk.css",
+    "main.js": "/static/js/main.dcee9894.chunk.js",
+    "main.js.map": "/static/js/main.dcee9894.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.8d5d4562.js",
+    "runtime-main.js.map": "/static/js/runtime-main.8d5d4562.js.map",
+    "static/js/2.303b06d3.chunk.js": "/static/js/2.303b06d3.chunk.js",
+    "static/js/2.303b06d3.chunk.js.map": "/static/js/2.303b06d3.chunk.js.map",
+    "static/js/3.5e1499bb.chunk.js": "/static/js/3.5e1499bb.chunk.js",
+    "static/js/3.5e1499bb.chunk.js.map": "/static/js/3.5e1499bb.chunk.js.map",
+    "index.html": "/index.html",
+    "static/css/main.42a35f89.chunk.css.map": "/static/css/main.42a35f89.chunk.css.map",
+    "static/js/2.303b06d3.chunk.js.LICENSE.txt": "/static/js/2.303b06d3.chunk.js.LICENSE.txt",
+    "static/media/index.css": "/static/media/MarckScript-Regular.71c2b438.ttf",
+    "static/media/logo.6ce24c58.svg": "/static/media/logo.6ce24c58.svg",
+    "static/media/Pirates.module.css": "/static/media/woodpattern.98a38db7.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.8d5d4562.js",
+    "static/js/2.303b06d3.chunk.js",
+    "static/css/main.42a35f89.chunk.css",
+    "static/js/main.dcee9894.chunk.js"
+  ]
+}

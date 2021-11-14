@@ -1,0 +1,226 @@
+*{
+    padding:0;
+    margin:0;
+    font-family: "Charm-Regular";
+}
+
+.header {
+    background-image: url("https://media.istockphoto.com/photos/pirate-treasure-map-picture-id611868178?b=1&k=20&m=611868178&s=170667a&w=0&h=13NAgGdA2qY92o8e90NiJKdetD4RWRW7xcSne069eZo=");
+    height: 10vh;
+    width: 100vw;
+    padding: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: calc(10px + 2vmin);
+    color: white;
+    text-shadow: 2px 2px black;
+    border-bottom: 2px solid rgb(75, 36, 2);
+}
+
+h2{
+    font-family:'Times New Roman', Times, serif
+}
+
+.cardRight h2 {
+    font-family: 'MarckScript-Regular';
+    font-size: xx-large;
+    margin-bottom: 15px
+}
+
+.phrase {
+    font-family: "MarckScript-Regular";
+    margin-top: 10px;
+}
+
+.main{
+    background-image: url('../components/imgs/woodpattern.jpg');
+    background-size: cover;
+    background-repeat: repeat;
+    min-height: 100vh;
+    padding-bottom: 200px 
+}
+
+.pirateViewBG{
+    background-image: url('../components/imgs/pirateBeach.jpg');
+    background-size: cover;
+    min-height: 100vh;
+    padding-bottom: 50px
+}
+
+.container {
+    width: 60%;
+    margin: auto;
+    display: flex;
+    justify-content: space-evenly;
+}
+.containerLeft{
+    max-width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.noFlexcontainer {
+    width: 50%;
+    margin: auto;
+}
+
+img{
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    text-align: center;
+}
+
+.mainImg{
+    border: 2px solid black;
+    height: 150px;
+    width: 150px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    text-align: center;
+}
+
+
+.pirateView_img{
+    border: 2px solid black;
+    height: 150px;
+    width: 150px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    text-align: center;
+}
+
+.pirateViewContent{
+    border: 3px solid black;
+    background: #f0fbed;
+    color: black;
+    width:500px;
+    display: flex;
+    justify-content: space-evenly;
+    padding: 30px;
+    margin: 70px;
+}
+
+button{
+    border-radius: 3px;
+    background-color: black;
+    color: white;
+    border: 1px solid white;
+    padding: 3px 5px;
+    font-weight: 600;
+    font-size: large;
+}
+
+.woodBtn {
+    background-image: url('../components/imgs/woodpattern.jpg');
+    color: aliceblue;
+    text-shadow: 1px 1px black;
+    margin-left: 20px;
+}
+
+.center{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.pin{
+    position: relative;
+    top: 60px;
+}
+
+.pirateCard{
+    display:flex;
+    justify-content: space-evenly;
+    margin: -40px 0;
+    background-image: url('../components/imgs/parchment.png');
+    background-size: 100% 100%;
+    height: 300px;
+    width: 600px;
+}
+
+.cardContent{
+    text-align: center;
+    align-items: center;
+}
+
+.cardLeft{
+    display: flex;
+    align-items: center;
+}
+
+.cardRight{
+    display: flex;
+    align-items: center;
+    margin-right: 20px;
+    margin-left: -20px;
+    padding-bottom: 20px;
+}
+
+.fixedNav{
+    position: absolute;
+    display: flex;
+    justify-content: space-between;
+    width: 150px;
+    right: 40px;
+    top: 18px;
+}
+
+form{
+    padding:20px;
+    background-color: rgb(230, 198, 149);
+    color: rgb(75, 36, 2);
+    border: 2px solid rgb(75, 36, 2);
+    margin-top: 20px;
+}
+
+label {
+    font-weight: 600;
+}
+
+input{
+    margin: 5px 0;
+    background-color: rgb(239, 228, 211);
+}
+
+select{
+    margin: 5px 0;
+    color: rgb(75, 36, 2);
+    background-color: rgb(239, 228, 211);
+    border: 2px solid rgb(75, 36, 2);
+    border-radius: 4px;
+}
+
+input[type="text"] {
+    width: 80%;
+    height: 1.5em;
+    border-radius: 4px;
+    border: 2px solid black;
+    padding:0 3px;
+}
+input[type="number"] {
+    width: 15%;
+    height: 1.5em;
+    border-radius: 4px;
+    border: 2px solid black;
+    padding-left:4px;
+}
+
+input[type="checkbox"]>label{
+    margin-left: 10px;
+}
+
+input[type='submit']{
+    background-color:rgb(75, 36, 2);
+    color:rgb(239, 228, 211);
+    border: none;
+    border-radius: 4px;
+    padding: 3px 5px;
+    font-weight: 600;
+}
