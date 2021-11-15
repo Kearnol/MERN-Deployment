@@ -5,7 +5,7 @@
 }
 
 .header {
-    background-image: url("https://media.istockphoto.com/photos/pirate-treasure-map-picture-id611868178?b=1&k=20&m=611868178&s=170667a&w=0&h=13NAgGdA2qY92o8e90NiJKdetD4RWRW7xcSne069eZo=");
+    background-image: url('../components/imgs/map.jpg');
     height: 10vh;
     width: 100vw;
     padding: 5px;

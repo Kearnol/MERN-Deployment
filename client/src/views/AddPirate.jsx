@@ -20,7 +20,7 @@ export default () => {
     })
     
     const createPirate = (pirate) => {
-        axios.post(`http://localhost:8000/pirates/new`, pirate)
+        axios.post(`http://localhost:8000/api/pirates/new`, pirate)
         .then(res => {
             console.log(res);
             history.push('/pirates')

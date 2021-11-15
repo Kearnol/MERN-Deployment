@@ -12,7 +12,7 @@ export default () => {
 
 	useEffect(() => {
 		axios
-			.get(`http://localhost:8000/pirates/${id}`)
+			.get(`http://localhost:8000/api/pirates/${id}`)
 			.then((res) => {
 				setPirate(res.data);
 				setData(!data);
@@ -69,7 +69,7 @@ export default () => {
 		}
 		console.log("updatedPirate", updatedPirate);
 		axios
-			.put(`http://localhost:8000/pirates/${id}`, updatedPirate)
+			.put(`http://localhost:8000/api/pirates/${id}`, updatedPirate)
 			.then((res) => {
 				console.log("res", res);
 				setUpdated(!updated);

@@ -10,12 +10,13 @@ export default () => {
     const [ updated, setUpdated ] = useState(false)
     
     useEffect(()=>{
-        axios.get(`http://localhost:8000/pirates`)
+        axios.get(`http://localhost:8000/api/pirates`)
         .then(res=> {console.log(res); setPirates(res.data)})
         .catch(err=> console.log(err));
     }, [updated]);
 
     const removeFromDom = () => {
+        console.log("this ran")
         setUpdated(!updated);
     }
     

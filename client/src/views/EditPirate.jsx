@@ -14,7 +14,7 @@ export default () => {
     
 
     useEffect(()=>{
-        axios.get(`http://localhost:8000/pirates/${id}`)
+        axios.get(`http://localhost:8000/api/pirates/${id}`)
         .then(res => {
             console.log(res.data);
             setInitPirate(res.data);
@@ -24,7 +24,7 @@ export default () => {
     },[])
 
     const updatePirate = (pirate) => {
-        axios.put(`http://localhost:8000/pirates/${id}`, pirate)
+        axios.put(`http://localhost:8000/api/pirates/${id}`, pirate)
         .then(res => {
             console.log(res);
             history.push(`/pirates/view/${id}`)
